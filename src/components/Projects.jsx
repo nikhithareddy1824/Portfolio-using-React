@@ -3,6 +3,8 @@ import React from "react";
 import movie from '../assets/movie.png'
 import booking from '../assets/booking.png'
 import bookstore from '../assets/bookstore.png'
+import figma from '../assets/figma.png'
+
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
@@ -17,6 +19,11 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             {title=='Bookstore App using MERN' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={bookstore} alt="" />
             </a>}
+            {title=='Movie App using Figma' && <a href="#">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={figma} alt="" />
+            </a>}
+            
+
             <div className="p-4 sm:p-6">
                 <a href="#">
                     <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
@@ -69,6 +76,13 @@ export const project = [
         image: {movie},
         git:'https://github.com/nikhithareddy1824/Movie-App-React',
         technologies:[ ,'ReactJS' , 'NodeJS','RestAPI']
+    },
+    {
+        title:'Movie App using Figma',
+        description:'This is a simple Graphic Designing  project which makes  displays the ui of a  movies app .It is done using Figma by using various advanced tools like auto layout',
+        image: {figma},
+        git:'https://www.figma.com/proto/DDladqq8waP2aFQpcf4C8a/Movie-App?page-id=0%3A1&node-id=11-391&node-type=canvas&viewport=547%2C393%2C0.67&t=dE6YwJajKhOngI20-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=0%3A3',
+        technologies:['UI' , 'Figma']
     },
     {
         title:'Hotel Booking using MERN  ',

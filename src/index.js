@@ -11,7 +11,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));   // This line creates a root object where your React application will be rendered. 
+//main entry point of yr react application ...It uses ReactDOM.createRoot
 root.render(
   <BrowserRouter>
       <Navbar/>

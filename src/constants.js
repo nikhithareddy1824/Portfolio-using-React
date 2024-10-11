@@ -1,15 +1,15 @@
 
 export const services = [
     {
-        title: "Technology Enthusiast",
+        title: "Student",
         icon: 'https://csgeeek.github.io/web.png',
     },
     {
-        title: "Software Engineer",
+        title: "Front End Development",
         icon: 'https://csgeeek.github.io/web.png',
     },
     {
-        title: "Photographer",
+        title: "UI/UX",
         icon: 'https://csgeeek.github.io/web.png',
     },
 ];

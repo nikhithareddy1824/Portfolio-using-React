@@ -37,7 +37,7 @@ const About = () => {
               </br> I’m eager to apply my skills to real-world projects and grow as a professional. Explore my portfolio to see the results of my learning journey and how I can contribute to your next project! </p>
 
             <ButtonLink
-              url='https://drive.google.com/file/d/10-5rwsOh8cim4DIDwKOy_X1pig2IK3iB/view?usp=drivesdk'
+              url='https://drive.google.com/file/d/1H0qMUPoRFx4TCAS_8a6mXh5fiYMBhpZ5/view?usp=drivesdk'
               text='View Resume →'
               padding={`p-3`}
             />
